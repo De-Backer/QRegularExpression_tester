@@ -17,6 +17,7 @@ Widget::Widget(QWidget *parent)
   connect(ui->patternLE, &QLineEdit::editingFinished,this,&Widget::test);
   connect(ui->subjectLE, &QLineEdit::editingFinished,this,&Widget::test);
   connect(ui->pushButton, &QPushButton::pressed,this,&Widget::test);
+  test();
 }
 
 Widget::~Widget()

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>293</width>
-    <height>179</height>
+    <width>538</width>
+    <height>199</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,11 @@
     </widget>
    </item>
    <item row="0" column="1">
-    <widget class="QLineEdit" name="patternLE"/>
+    <widget class="QLineEdit" name="patternLE">
+     <property name="text">
+      <string>^project(?&lt;project_id&gt;[0-9])\+(?&lt;collection_path&gt;embed://*.*)$</string>
+     </property>
+    </widget>
    </item>
    <item row="1" column="0">
     <widget class="QLabel" name="label_2">
@@ -32,7 +36,11 @@
     </widget>
    </item>
    <item row="1" column="1">
-    <widget class="QLineEdit" name="subjectLE"/>
+    <widget class="QLineEdit" name="subjectLE">
+     <property name="text">
+      <string>project0+embed://import/new_element.elmt</string>
+     </property>
+    </widget>
    </item>
    <item row="2" column="0" colspan="2">
     <widget class="QPushButton" name="pushButton">

@@ -14,22 +14,32 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="widget.ui" line="30"/>
+        <location filename="widget.ui" line="27"/>
+        <source>^project(?&lt;project_id&gt;[0-9])\+(?&lt;collection_path&gt;embed://*.*)$</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="widget.ui" line="34"/>
         <source>subject</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="widget.ui" line="60"/>
+        <location filename="widget.ui" line="41"/>
+        <source>project0+embed://import/new_element.elmt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="widget.ui" line="68"/>
         <source>out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="widget.ui" line="40"/>
+        <location filename="widget.ui" line="48"/>
         <source>run</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="widget.ui" line="47"/>
+        <location filename="widget.ui" line="55"/>
         <source>error tekst</source>
         <translation type="unfinished"></translation>
     </message>
